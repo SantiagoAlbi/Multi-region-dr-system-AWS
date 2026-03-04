@@ -25,7 +25,7 @@ variable "project_name" {
 variable "db_username" {
   description = "RDS master username"
   type        = string
-  default     = "dbadmin"
+  default     = "dbadmin" #example for db, should be other.
   sensitive   = true
 }
 
